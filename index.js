@@ -11,7 +11,7 @@ console.log(name)
 console.log(age)
 
 // rules for naming variables
-x="Demari"
+// x="Demari"
 a=20 
 tp=2000 
 
@@ -36,3 +36,40 @@ role="Pod Leader"
 
 console.log(myAge);
 console.log(role)
+
+let isStudent=true;
+let firstSecondThird;
+firstSecondThird=123;//assign
+console.log(firstSecondThird)
+
+//Datatypes
+//string== text (anything inside quotes)
+//numbers
+//Boolean
+//Undefined
+
+let x;
+console.log(x)
+//Null
+
+
+console.log(typeof "Hello");
+console.log(typeof 30);
+console.log(typeof true);
+
+let yourName="Wesley"
+let yourAge=20;
+let isAStudent=false;
+let mySchool;
+mySchool="Moringa"
+let city=null;
+city="Nairobi"
+
+console.log(yourName);
+console.log(yourAge);
+console.log(isAStudent);
+console.log(mySchool);
+console.log(city);
+
+let fruits =['apple', 'banana', 'orange']
+console.log(fruits);
