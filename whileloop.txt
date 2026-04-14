@@ -1,0 +1,50 @@
+While Loop 
+===========
+While loop: runs code as long as a condition is true
+Syntax:
+while ( condition ){
+    code
+}
+
+Advanced methods to loop through arrays
+========================================
+1. Map()
+--------
+loops through the array, transforms each item and returns new array
+[1,2,3,4,5]=>original arrays
+[2,4,6]=>current/final array
+Syntax
+-------
+array.map(function (item){
+    return newItem;
+})
+When to use item
+- when transforming data
+-keeping the same numbers of items in the array
+-create a new array as the output
+
+2. Filter()
+------------
+returns a new array containing only items that pass a condition
+[10,20,30,40,50]: input
+[20,30,50]: result/output
+
+Syntax
+-------
+array.filter(function(item){
+    return condition;
+})
+if condition is tur=> keep item
+false=> remove the items
+
+3. reduce()
+-------
+takes all value and combines them into one single value
+[2,5,8,9,10]: input
+45: output 
+
+Syntax
+--------
+arrat.reduce(function(acc,current){
+    return newValue; //acc+2=2
+},intial value)
